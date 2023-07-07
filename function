@@ -1,0 +1,11 @@
+public class ejercicios {
+
+    public static void main(String[] args) {
+    
+    int num = 10;
+    double iva = num + num * 10 / 100; // 10%
+    double resultado = num + iva;
+
+    System.out.println(resultado);
+}
+}
