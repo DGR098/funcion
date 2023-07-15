@@ -1,11 +1,22 @@
-public class ejercicios {
+import java.util.Scanner;
+
+import javax.script.ScriptEngine;
+
+public class ejercicioDos {
 
     public static void main(String[] args) {
-    
-    int num = 10;
-    double iva = num + num * 10 / 100; // 10%
-    double resultado = num + iva;
+        
+        Scanner scanner = new Scanner(System.in);
 
-    System.out.println(resultado);
-}
+        System.out.println("Intrduce un numero");
+
+        int numero = scanner.nextInt();
+
+        double iva = numero * 0.15; // 15%
+
+        double resultado = numero + iva;
+
+        System.out.println("El resultado con IVA es: " + resultado);
+
+    }
 }
